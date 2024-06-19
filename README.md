@@ -101,6 +101,11 @@ The following API endpoints are available:
 - `POST /api/submit`: Handles the submission of data.
 - `GET /api/read`: Retrieves data from the `db.json` file.
 
+These are Postman snap shots, demonstrates how this endpoints are working
+![Screenshot 2024-06-19 at 3 04 45 PM](https://github.com/adiabb05-1317/BackendApp_SlidelyAI/assets/108891742/101acea8-2c5c-44a0-bf01-4b5c3ca9e9b4)
+![Screenshot 2024-06-13 at 2 45 05 PM](https://github.com/adiabb05-1317/BackendApp_SlidelyAI/assets/108891742/eab007ac-88f0-4193-8372-cc0ab7e531d0)
+
+
 ## Deployment
 
 To deploy the application, you can use a hosting service like Heroku, AWS, or DigitalOcean. Make sure to build the project using `npm run build` before deploying, and update the `main` field in the `package.json` file to point to the compiled JavaScript file in the `dist` directory.
@@ -113,4 +118,6 @@ If you would like to contribute to the project, please follow the standard GitHu
 2. Create a new branch for your feature or bug fix
 3. Make your changes and commit them
 4. Push your changes to your forked repository
-5. Create a pull request to the main repository 
+5. Create a pull request to the main repository
+   ![Uploading Screenshot 2024-06-19 at 3.04.45 PM.png…]()
+

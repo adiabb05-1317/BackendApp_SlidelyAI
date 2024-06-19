@@ -34,6 +34,15 @@ cd BackendApp_SlidelyAI
 ```bash
 npm install
 ```
+### Building the Project
+
+To build the TypeScript code and generate the JavaScript files, use the following command:
+
+```bash
+npm run build
+```
+
+This will compile the TypeScript code and place the resulting JavaScript files in the `dist` directory.
 
 ### Running the Development Server
 
@@ -45,15 +54,7 @@ npm run dev
 
 This will start the server and automatically restart it whenever you make changes to the code.
 
-### Building the Project
 
-To build the TypeScript code and generate the JavaScript files, use the following command:
-
-```bash
-npm run build
-```
-
-This will compile the TypeScript code and place the resulting JavaScript files in the `dist` directory.
 
 ### Starting the Server
 
@@ -96,9 +97,9 @@ BackendApp_SlidelyAI/
 
 The following API endpoints are available:
 
-- `POST /api/ping`: Responds with "pong" when the endpoint is hit.
+- `GET /api/ping`: Responds with "pong" when the endpoint is hit.
 - `POST /api/submit`: Handles the submission of data.
-- `POST /api/read`: Retrieves data from the `db.json` file.
+- `GET /api/read`: Retrieves data from the `db.json` file.
 
 ## Deployment
 

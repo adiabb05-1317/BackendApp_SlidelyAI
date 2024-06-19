@@ -103,7 +103,8 @@ The following API endpoints are available:
 
 These are Postman snap shots, demonstrates how this endpoints are working
 ![Screenshot 2024-06-19 at 3 04 45 PM](https://github.com/adiabb05-1317/BackendApp_SlidelyAI/assets/108891742/101acea8-2c5c-44a0-bf01-4b5c3ca9e9b4)
-![Screenshot 2024-06-13 at 2 45 05 PM](https://github.com/adiabb05-1317/BackendApp_SlidelyAI/assets/108891742/eab007ac-88f0-4193-8372-cc0ab7e531d0)
+
+![Screenshot 2024-06-19 at 3 47 34 PM](https://github.com/adiabb05-1317/BackendApp_SlidelyAI/assets/108891742/24780b03-8f19-4ae2-acd8-e8dcdef9e1b1)
 
 
 ## Deployment

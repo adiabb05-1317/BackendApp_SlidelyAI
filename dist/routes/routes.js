@@ -29,8 +29,8 @@ router.get("/ping", (0, express_async_handler_1.default)((req, res) => __awaiter
     res.send("pong");
 })));
 router.post("/submit", (0, express_async_handler_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const { name, email, phone, github_link, stopwatch_time } = req.body;
-    const newSubmission = { name, email, phone, github_link, stopwatch_time };
+    const { Name, Email, Phone, GithubLink, StopwatchTime } = req.body;
+    const newSubmission = { Name, Email, Phone, GithubLink, StopwatchTime };
     let db = readDB();
     db.submissions.push(newSubmission);
     writeDB(db);

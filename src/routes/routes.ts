@@ -25,8 +25,8 @@ router.get(
 router.post(
   "/submit",
   asyncHandler(async (req: Request, res: Response) => {
-    const { name, email, phone, github_link, stopwatch_time } = req.body;
-    const newSubmission = { name, email, phone, github_link, stopwatch_time };
+    const { Name, Email, Phone, GithubLink, StopwatchTime } = req.body;
+    const newSubmission = { Name, Email, Phone, GithubLink, StopwatchTime };
 
     let db = readDB();
     db.submissions.push(newSubmission);
